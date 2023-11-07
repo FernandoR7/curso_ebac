@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box
+}
+
+header li {display: inline;}
+.container {width: 1920px
+    margin: 10px; auto;}
+
+  .articles {display: flex;flex-wrap: wrap; justify-content: space-between;}
+
+  .articles article img{ height: 190px;
+}
+
+  .articles article {width: 30%;
+}
+
+  body > header  { background-color: rgb(26, 59, 54);
+    color: #fff;
+padding: 16px 0;
+ }
+
+header li a { color: #fff;
+justify-content: space-between; font-family: Arial, Helvetica, sans-serif; font-weight: bold;text-decoration: none;}
+section {padding: 15px }
+
+section h2 .articles article
+{ margin-bottom: 16px;}
+  .articles article h3 {margin-top: 8px; 
+    margin-bottom: 8px;
+}
+
+.articles article a {background-color: forestgreen;
+     padding: 4px; 
+     color: #fff;
+     display: inline-block;
+     text-decoration: none;
+     font-weight: bold;
+    margin-top: 8%;}
+
+    body>header h1 { padding-left: 15px;
+         justify-content: space-between;
+        }
+
+.articles article p{ font-family: Arial, Helvetica, sans-serif;}
+
+    .articles article a { font-family: Arial, Helvetica, sans-serif}
+
+    .articles article h3 { font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: 22px;}
+
+    .articles article a:hover {text-decoration: underline;}
+
+    #sports { background-color: rgba(0, 255, 0, 0.1);}
+
+    #sports .articles article a {background-color: rgba(0, 255, 0, 0.4);
+    color: black;}
+
+    #economy .articles article a {background-color: rgb(101, 137, 158); 
+    color: rgb(255, 253, 253); }
+    #economy { background-color: rgb(196, 217, 255);}
+
+    .articles article img {width: 100%}
+    header li{ margin-left: 16px;}
+    .articles article img { margin-top: 20px;}
+
+    #tecnologia 
+    .articles article img {width: 100%}
+    header li{ margin-left: 16px;}
+    .articles article img { margin-top: 20px;}
+    
+    #entreterimento .articles article img {width: 100%}
+    header li{ margin-left: 16px;}
+    .articles article img { margin-top: 20px;}
+   #tecnologia {background-color: rgb(145, 109, 150);}
+   #tecnologia a { font-family: Arial, Helvetica, sans-serif}
+
+   #entreterimento {background-color: #d4a17b;color: rgb(7, 7, 7);}
+   #tecnologia .articles article a {background-color: rgb(241, 243, 245); 
+    color: rgb(68, 60, 66); }
+    #entreterimento .articles article a {background-color: rgb(129, 27, 27); 
+        color: bisque }
+
